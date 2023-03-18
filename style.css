@@ -11,12 +11,14 @@ h1 {
 
     font-size: 48px;
     font-weight: 700;
-    color: #242424;
 }
 
 h2 {
     font-size: 44px;
 }
+
+
+
 
 .container{
     padding: 80px 0;
@@ -62,7 +64,7 @@ li {
 .nav__link {
     margin-left: 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #46444a;
     font-weight: none;
     padding: 8px;
@@ -85,13 +87,13 @@ li {
     border: 2px solid rgba(100,21,255);
     border-radius: 20px;
     background-color:rgba(100,21,255);
-    margin-left: 10px;
-   
+    margin-left: 12px;
  }  
  .sign__up--color {
     color: white;
      display: flex;
 align-items: center;  
+    margin: 0 5px;
 }
 
 /* MAIN BODY 
@@ -255,4 +257,86 @@ SERVICES
 .btn__learnmore {
     background-color: rgba(100,21,255);
     color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 9999px;
+    width: 22%;
+    padding: 16px 16px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.quality__img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 0 34px;
+
+}
+.quality__header {
+    padding: 15px 0;
+    text-align: left;
+    font-size: 50px;
+}
+.quality__row {
+    display: flex;
+}
+
+.quality__para {
+    padding: 15px 0;
+}
+
+/*
+
+STEPS
+
+*/
+
+
+
+.steps {
+    display: flex;
+}
+
+.steps__img {
+    width: 50%;
+}
+
+.step__texts {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.steps__list {
+    padding-left: 20px;
+}
+.steps__lists {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5 rem;
+}
+
+.numbers {
+    color: rgb(218, 213, 213);
+    font-size: 36px;
+}
+
+.list__nums {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.list__num {
+    display: flex;
+    align-items: flex-start;
 }

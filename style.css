@@ -40,6 +40,7 @@ h2 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 40px;
 }
 
 nav {
@@ -377,9 +378,10 @@ STEPS
 }
 
 /* 
-pricnig
+PRICING
 
 */
+
 
 .pricing__text {
     display: flex;
@@ -387,9 +389,18 @@ pricnig
     align-items: center;
 }
 
+.pricing__title--beg {
+    font-weight: bold;
+    font-size: 14px;
+}
+
 .pricing__values {
     display: flex;
     justify-content: space-around;
+}
+
+.top__line {
+    border-style: solid;
 }
 
 .pricing__h1 {
@@ -398,10 +409,84 @@ pricnig
 
 .pricing__values {
     padding-top: 30px;
+    text-align: center;
+
 }
 
 .pricing__para {
     padding-bottom: 30px;
     margin: 0 330px;
     text-align: center;
+}
+
+.price__btn {
+    font-size: 12px;
+    border-radius: 9999px;
+    padding: 14px 50px;
+    border-width: 0;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+.price__btn--first {
+    background-color: rgb(56, 178, 172);
+    color: white;
+
+}
+
+.price__btn--second {
+    background-color: white;
+    color: rgb(100 21 255);
+}
+
+.price__btn--third {
+    background-color: rgb(245, 101, 101);
+    color: white;
+}
+
+.pricing__value-beggining {
+    width: 100%;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 0.2px;
+    border-color: rgb(196, 194, 194);
+    margin: 0 40px;
+    padding: 40px 0;
+
+}
+
+.line {
+    border: solid;
+    border-width: 0.2px;
+    color: rgb(218, 213, 213);
+    margin: 20px 0;
+}
+
+.pricing__value-middle {
+    width: 100%;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 0.2px;
+    border-color: rgb(196, 194, 194);    padding: 40px 0;
+    background-color: rgb(97, 70, 249);
+    color: white;
+}
+
+.pricing__value-last {
+    width: 100%;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 0.2px;
+    border-color: rgb(196, 194, 194);    margin: 0 40px;
+    padding: 40px 0;
+}
+
+.pricing__value--para {
+    padding: 10px 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.pricing__value--second-middle {
+    color: white;
 }

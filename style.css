@@ -400,7 +400,27 @@ PRICING
 }
 
 .top__line {
-    border-style: solid;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 6px;
+    background-color: rgb(56, 178, 172);
+}
+
+.top__line--end {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 6px;
+    background-color: rgb(245, 101, 101);
 }
 
 .pricing__h1 {
@@ -452,7 +472,7 @@ PRICING
     border-color: rgb(196, 194, 194);
     margin: 0 40px;
     padding: 40px 0;
-
+    position: relative;
 }
 
 .line {
@@ -468,7 +488,7 @@ PRICING
     border-radius: 12px;
     border-width: 0.2px;
     border-color: rgb(196, 194, 194);    padding: 40px 0;
-    background-color: rgb(97, 70, 249);
+    background-color: rgb(97, 92, 250);
     color: white;
 }
 
@@ -479,6 +499,8 @@ PRICING
     border-width: 0.2px;
     border-color: rgb(196, 194, 194);    margin: 0 40px;
     padding: 40px 0;
+    position: relative;
+
 }
 
 .pricing__value--para {

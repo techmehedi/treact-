@@ -512,3 +512,51 @@ PRICING
 .pricing__value--second-middle {
     color: white;
 }
+
+/* VALUE 
+ */
+
+ .values {
+    display: flex;
+    align-items: center;
+ }
+
+ .dollar__sign {
+    border: 2px;
+    border-radius: 999px;
+    background-color: #9AE6B4;
+    margin-right: 10px;
+ }
+
+ .fa-dollar-sign {
+    margin: 6px 10px;
+ }
+
+ .suitcase {
+    border: 2px;
+    border-radius: 999px;
+    background-color: rgb(240, 162, 175);
+    margin-right: 10px;
+ }
+
+ .fa-suitcase {
+    margin: 8px 8px;
+ }
+
+ .values__img {
+    width: 500px;
+ }
+
+ .values__text--small-title {
+    display: flex;
+    align-items: center;
+ }
+
+ .values__texts--small {
+    display: flex;
+ }
+
+ .values__text--small-title-second {
+    display: flex;
+    align-items: center;
+ }
